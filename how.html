@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>How to use TROEL Project</title>
+    <link rel="stylesheet" href="./how.css">
+    <meta charset="UTF-8">
+ <style>
+    canvas {
+    width: 100%;
+    height: 100%;
+  }
+
+.f {
+    position: absolute;
+    top: 20px;
+    left : 400px;
+}
+
+.f-1 {
+    position: absolute;
+    top: 140px;
+    left : 100px;
+     margin-bottom: 20px
+}
+
+  
+
+
+.f-2 {
+    position: absolute;
+    top: 720px;
+    left : 1100px;
+    width: 1200px; /* 변경된 값 */
+    color: black;
+} 
+
+
+
+</style>
+</head>    
+
+
+<body>
+    <p class="f" 
+    style="letter-spacing: 15px;">
+    How to use TROEL Project
+    </p>
+    
+    <p class="f-1" 
+    style="letter-spacing: 15px;">
+    1단계 : 읽고 싶은 편지지를 골라 클릭한다.<br>
+    2단계 : 받는 사람 (반짝거릴 것임!)을 눌러 편지지를 연다.<br>
+    3단계 : 밑줄을 그으며 읽는다는 느낌을 가지고 문장들을 마우스로 긋는다고 생각하면서<br>
+           &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+           마우스로 문장 위를 스치며 읽어준다. (중요!!)<br>
+    4단계 : 편지를 끝까지 읽고 날짜가 적힌 곳에 도달한다면 다시 편지지를 눌러<br>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 메인 페이지로 이동한다.<br>
+    5단계 : 1번부터 5개의 편지를 읽을 때까지 반복한다.
+    </p>
+
+
+    <a href="./index.html" 
+    style="text-decoration: none;">
+       <p class="f-2" 
+       style="letter-spacing: 15px;">
+       ‧˚₊*̥ 돌아가기  ˚₊*̥  
+       </p>
+    
+          
+
+
+    
+      
+</body>
+
+<script>
+    var windowWidth = window.innerWidth || document.documentElement.clientWidth || document.body.clientWidth;
+    var windowHeight = window.innerHeight || document.documentElement.clientHeight || document.body.clientHeight;
+    console.log("현재 브라우저 창 크기 (가로 x 세로): " + windowWidth + " x " + windowHeight);
+  </script>
+</html>

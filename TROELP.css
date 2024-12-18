@@ -1,0 +1,156 @@
+*{
+    margin: 10;
+    padding: 0;
+    box-sizing: border-box;
+    line-height: 1;
+    width: 100%;
+}
+
+.pr {
+
+    font-size: 20px;
+    font-weight: bold;
+    color: rgba(0, 0, 0);
+}
+
+.pr-1 {
+    
+    font-size: 15px;
+    color: rgba(0, 0, 0);
+}
+
+
+.pr-2 {
+    font-size: 15px;
+    color: rgba(0, 0, 0);
+}
+
+.f {
+    font-weight: bold;
+    font-size: 15px;
+    display:inline-block;
+    text-decoration: none;
+}
+.f:hover {
+    cursor: pointer;
+    }
+
+a {
+
+    color: rgb(0, 0, 0);
+}
+
+.s {
+    font-weight: bold;
+    font-size: 15px;
+    display:inline-block;
+    text-decoration: none;
+}
+
+.s:hover {
+    cursor: pointer;
+    }
+
+
+.spring {
+    font-weight: bold;
+    font-size: 35px;
+}
+
+.win {
+    font-weight: bold;
+    font-size: 35px;
+}
+
+.cel {
+    font-weight: bold;
+    font-size: 35px;
+}
+
+
+.dai {
+    font-weight: bold;
+    font-size: 35px;
+}
+
+.fee {
+    font-weight: bold;
+    font-size: 45px;
+}
+.fee-1 {
+    font-weight: bold;
+    font-size: 45px;
+}
+.fee-2 {
+    font-weight: bold;
+    font-size: 45px;
+}
+
+.get {
+    font-weight: bold;
+    font-size: 45px;
+}
+.get-1 {
+    font-weight: bold;
+    font-size: 45px;
+}
+.get-2 {
+    font-weight: bold;
+    font-size: 45px;
+}
+
+.get-3 {
+    font-weight: bold;
+    font-size: 20px;
+}
+
+
+.get-4 {
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.get-5 {
+    font-weight: bold;
+    font-size: 20px;
+}
+.get-7 {
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.get-6 {
+    font-weight: bold;
+    font-size: 15px;
+   
+}
+.get-8 {
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.get-9 {
+    font-weight: bold;
+    font-size: 15px;
+   
+}
+
+.get-10 {
+    font-weight: bold;
+    font-size: 15px;
+   
+}
+
+
+.w-1 {
+    font-weight: bold;
+    font-size: 30px;
+   
+}
+
+.w-2 {
+    font-weight: bold;
+    font-size: 15px;
+   
+}
+

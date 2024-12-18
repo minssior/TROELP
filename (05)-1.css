@@ -1,0 +1,386 @@
+*{
+    margin: 10;
+    padding: 0;
+    box-sizing: border-box;
+    line-height: 1;
+    width: 100%;
+}
+
+.pr {
+
+    color: rgba(0, 0, 0, 0.9);
+}
+
+.pr-1 {
+
+    color: rgba(0, 0, 0, 0.9);
+}
+
+
+.pr-2 {
+
+    color: rgba(0, 0, 0, 0.9);
+}
+.let {
+    font-size: 4px;
+}
+
+
+.let-1 {
+    font-size: 4px;
+}
+
+.let-2 {
+    font-size: 10px;
+}
+
+.let-3 {
+    font-size: 4px;
+}
+
+.t {
+    font-size: 13px;
+    color: rgb(0, 0, 0);
+}
+
+.t-1 {
+    font-size: 16px;
+    color: rgba(0, 0, 0, 0.172);
+    transition: color 0.3s ease;
+    font-weight: bold;
+
+}
+
+
+
+
+.t-2 {
+    font-size: 13px;
+
+}
+
+.t-3 {
+    font-size: 13px;
+    transition: opacity 0.3s ease;
+
+}
+
+
+.t-3:hover {
+    cursor: pointer;
+    font-size: 13px;
+    opacity: 0;
+
+}
+
+
+.t-4 {
+    font-size: 13px;
+
+}
+
+
+.t-5 {
+    font-size: 13px;
+
+}
+
+.t-6 {
+    font-size: 13px;
+    letter-spacing: 0;
+    transition: letter-spacing 2s ease;
+
+}
+
+
+
+
+.t-6:hover {
+    
+    letter-spacing: 30px;
+  
+ 
+
+}
+
+.t-7 {
+    font-size: 13px;
+    transition: opacity 0.3s ease;
+
+}
+
+
+.t-7:hover {
+    cursor: pointer;
+    font-size: 13px;
+    opacity: 0;
+
+}
+
+.t-7-1 {
+    font-size: 13px;
+   
+
+}
+
+
+.t-7-2{
+    font-size: 15px;
+font-weight: bold;
+   
+
+}
+
+.t-8 {
+    font-size: 13px;
+ 
+
+}
+
+
+.t-8-1 {
+    font-size: 13px;
+     animation: shake 4s infinite;
+}
+
+
+@keyframes shake {
+    0% { transform: translateX(0); }
+    25% { transform: translateX(-2px) rotate(-1deg); }
+    75% { transform: translateX(2px) rotate(1deg); }
+    100% { transform: translateX(0); }
+  }
+
+
+  .t-8-2 {
+    font-size: 13px;
+ 
+
+}
+
+.t-9 {
+    font-size: 13px;
+ 
+
+}
+.t-10 {
+    font-size: 13px;
+ }
+
+ .t-10-1 {
+    font-size: 13px;
+    transition: opacity 0.3s ease;
+ }
+
+
+.t-10-1:hover {
+    cursor: pointer;
+    font-size: 13px;
+    opacity: 0;
+
+}
+
+ .t-10-2 {
+    font-size: 13px;
+ }
+ .t-10-3 {
+    font-size: 13px;
+ }
+
+
+
+  
+ .t-11 {
+    font-size: 13px;
+    transition: all 1s ease;
+}
+ .t-11-2 {
+    font-size: 13px;
+    transition: all 1s ease;
+}
+
+.t-11-2:hover {
+    cursor: pointer;
+    opacity: 0.5;
+    color: rgba(250, 220, 25, 0.8);
+    font-weight: bold;
+}
+
+
+
+ .t-11-1 {
+    font-size: 13px;
+ }
+
+ .t-12 {
+    font-size: 13px;
+ }
+
+ .t-13 {
+    font-size: 13px;
+    transition: all 1s ease;
+}
+
+.t-13:hover {
+    cursor: pointer;
+    opacity: 0.5;
+    color: rgba(255, 105, 180, 0.8);
+    font-weight: bold;
+}
+
+ .t-13-1 {
+    font-size: 13px;
+ }
+
+
+ .t-14 {
+    font-size: 13px;
+ }
+
+ .t-15 {
+    font-size: 13px;
+    transition: all 1s ease;
+}
+
+.t-15:hover {
+    cursor: pointer;
+    opacity: 0.5;
+    color: rgba(250, 220, 25, 0.8);
+    font-weight: bold;
+}
+
+.t-15-1 {
+    font-size: 13px;
+ }
+
+
+.t-16 {
+    font-size: 13px;
+ }
+
+
+ .t-16-1 {
+    font-size: 13px;
+    transition: transform 2s ease, opacity 1s ease;
+    transform-origin: center;
+}
+
+.t-16-1:hover {
+    cursor: pointer;
+    transform: translateY(-20px);
+    opacity: 0.5;
+}
+
+.t-16-2 {
+    font-size: 13px;
+ }
+
+ .t-17 {
+    font-size: 13px;
+ }
+
+
+ .t-18 {
+    font-size: 13px;
+    transition: transform 2s ease, opacity 1s ease;
+    transform-origin: center;
+}
+
+.t-18:hover {
+    cursor: pointer;
+    transform: translateY(20px);
+    opacity: 0.5;
+}
+
+.t-19 {
+    font-size: 13px;
+ }
+
+ .t-20 {
+    font-size: 13px;
+ }
+
+ .t-21 {
+    font-size: 13px;
+ }
+
+
+ .t-22 {
+    font-size: 13px;
+    transition: transform 2s ease, color 0.3s ease;
+}
+
+.t-22:hover {
+    cursor: pointer;
+    transform: translateY(-30px);
+    color: #87CEEB;
+}
+
+ .t-23 {
+    font-size: 13px;
+ }
+
+
+
+ .t-24
+
+{font-size: 50px;
+font-weight: bolder;} 
+    
+
+
+.t-25 {
+    font-size: 13px;
+    color: black;
+    text-decoration: none;
+ }
+
+ .t-26 {
+    font-size: 13px;
+    color: black;
+    text-decoration: none;
+ }
+
+ .t-27 {
+    font-size: 13px;
+    color: black;
+    text-decoration: none;
+ }
+
+ .t-28 {
+    font-size: 13px;
+    color: black;
+    text-decoration: none;
+ }
+
+
+ .t-29 {
+    font-size: 13px;
+    color: black;
+ text-decoration: none;
+ }
+
+
+ .이미지6-image,
+ .이미지7-image,
+ .이미지8-image {
+     transition: opacity 0.5s ease;
+     opacity: 0.4;
+ }
+ 
+ .이미지6-image:hover,
+ .이미지7-image:hover,
+ .이미지8-image:hover {
+     opacity: 1;
+ }
+
+ .t-24-1 {
+    font-size: 13px;
+ }
+
+
+
+
+
+
+

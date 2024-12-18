@@ -1,0 +1,107 @@
+*{
+    margin: 10;
+    padding: 0;
+    box-sizing: border-box;
+    line-height: 1;
+    width: 100%;
+}
+
+.pr {
+
+    color: rgba(0, 0, 0, 0.4);
+}
+
+.pr-1 {
+
+    color: rgba(0, 0, 0, 0.4);
+}
+
+
+.pr-2 {
+
+    color: rgba(0, 0, 0, 0.4);
+}
+
+.send {
+    font-size: 20px;
+    letter-spacing: 2px;
+
+}
+
+
+@keyframes twinkling {
+    0% { opacity: 1; }
+    50% { opacity: 0.5; }
+    100% { opacity: 1; }
+  }
+
+.send-1 {
+   
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+    letter-spacing: 3px;
+    position: relative;
+    display: inline-block;
+    animation: twinkling 0.5s infinite;
+}
+
+a {
+    color: rgb(0, 0, 0);
+}
+
+.send-1:hover {
+    cursor: pointer;
+    }
+
+
+
+  @keyframes twinkling {
+    0% { opacity: 1; }
+    50% { opacity: 0.5; }
+    100% { opacity: 1; }
+  }
+
+.send-2 {
+    font-size: 20px;
+    word-spacing: 10px;
+    position: relative;
+     display: inline-block;
+    animation: twinkling 1s infinite;
+     }
+  
+
+.send-3 {
+    font-size: 17px;
+    letter-spacing: 2px;
+}
+.send-4 {
+    font-size: 17px;
+    letter-spacing: 5px;
+}
+
+.send-5 {
+    font-size: 19px;
+    letter-spacing: 2px;
+    transition: font-size 0.8s ease-out;
+}
+
+.send-5:hover { 
+    cursor: pointer;
+    font-size: 22px;
+    color: rgb(92, 111, 250);
+}
+
+
+.send-6 {
+    font-size: 19px;
+    letter-spacing: 2px;
+    transition: font-size 0.8s ease-out;
+}
+
+.send-6:hover {
+    cursor: pointer;
+    font-size: 22px;
+    color: rgb(139, 185, 255);
+}
+
+

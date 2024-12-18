@@ -1,0 +1,75 @@
+* {
+    margin: 0; /* 바깥쪽 여백 */
+    padding: 0; /* 안쪽 여백 */
+    line-height: 1; /* 행간 */
+   
+   
+    word-break: keep-all; /*단어로 줄바꿈*/
+}
+
+
+.f {
+    font-weight: bold;
+    font-size: 35px;
+}
+
+
+.f-3{
+    font-weight: bold;
+  
+    font-size: 13px;
+    line-height: 4; /* 행간 */
+
+}
+
+.f-2 { 
+    font-size: 13px;
+    animation: twinkling 1s infinite;
+    text-shadow: 
+    0 0 10px #fff, 0 0 20px
+     #fff, 0 0 30px #fff, 0 0 40px 
+     #ff6eff, 0 0 70px #ff6eff, 0 0 80px
+      #ff6eff, 0 0 100px #ff6eff, 0 0 150px 
+      #ff6eff;
+}
+
+
+@keyframes twinkling {
+    0% { opacity: 1; }
+    50% { opacity: 0.3; }
+    100% { opacity: 1; }
+}
+
+
+ .minseo{
+
+    position: absolute;
+    top: 1080px;
+    left: 1270px;
+    background-color: rgb(250, 157, 255);
+    color: rgb(255, 236, 168);
+    border: 2px solid rgb(250, 157, 255);
+    outline: none;
+  }
+
+ .hi{
+
+    position: absolute;
+    top: 1050px;
+    left: 1270px;
+    background-color: rgb(0, 0, 0);
+    color: rgb(250, 157, 255);
+    border: 2px solid rgb(0, 0, 0);
+    outline: none;
+  }
+
+  .kim {
+    position: absolute;
+    top: 1100px;
+    left: 1050px;
+    width: 300px; 
+    height: 40px; 
+    margin-top: 10px; 
+    margin-bottom: 10px; 
+  }
+ 

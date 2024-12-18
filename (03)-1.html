@@ -1,0 +1,765 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>(03)-1</title>
+    <link rel="stylesheet" href="./(03)-1.css">
+    <meta charset="UTF-8">
+ <style>
+    canvas {
+    width: 100%;
+    height: 100%;
+  }
+
+  .pr {
+    position: absolute;
+    left: 12px;
+    
+  }
+
+  .pr-1 {
+    position: absolute;
+    left: 10px;
+    top: 30px;
+  }
+
+  .pr-2 {
+    position: absolute;
+   
+    left: 1290px;
+  }
+
+  .let {
+        writing-mode: vertical-rl;
+        text-orientation: upright;
+        position: absolute;
+     top: 120px;
+     left: -1395px;
+        
+
+  }
+
+
+  .let-1{
+        writing-mode: vertical-rl;
+        text-orientation: upright;
+        position: absolute;
+     top: 540px;
+     left:-1395px;
+        
+
+  }
+
+  .let-2{
+    writing-mode: vertical-rl;
+        text-orientation: upright;
+        position: absolute;
+     top: 370px;
+     left: -1400px;
+
+     
+        
+
+  }
+
+  .let-3{
+    
+    position: absolute;
+     top: 722px;
+     left: 30px; }
+
+
+
+  .lett {
+        writing-mode: vertical-rl;
+        text-orientation: upright;
+        position: absolute;
+     top: 120px;
+     left: 2275px;
+        
+
+  }
+
+
+  .lett-1{
+        writing-mode: vertical-rl;
+        text-orientation: upright;
+        position: absolute;
+     top: 540px;
+     left: 2275px;
+        
+
+  }
+
+  .lett-2{
+    writing-mode: vertical-rl;
+        text-orientation: upright;
+        position: absolute;
+     top: 370px;
+     left: 2270px;
+
+     
+        
+
+  }
+
+  .lett-3{
+    
+    position: absolute;
+     top: 722px;
+     left: 3700px; }
+
+
+  .d{
+    
+    position: absolute;
+     top: 106px;
+     left: 118px; }
+
+     
+
+ 
+   .d-1{
+     position: absolute;
+     top: 156px;
+     left: 118px; }
+    
+
+
+     .d-1-1{
+     position: absolute;
+     top: 156px;
+     left: 228px; }
+    
+
+     .d-1-2{
+     position: absolute;
+     top: 138px;
+     left: 387px; }
+
+
+     .d-1-3{
+     position: absolute;
+     top: 138px;
+     left: 446px; }
+
+     .d-2{
+     position: absolute;
+     top: 206px;
+     left: 118px; }
+
+     .d-3{
+     position: absolute;
+     top: 256px;
+     left: 118px; }
+
+     .d-3-1{
+     position: absolute;
+     top: 256px;
+     left: 168px; }
+    
+     #d4{
+     position: absolute;
+     top: 360px;
+     left: 118px; }
+    
+     .d-5{
+     position: absolute;
+     top: 360px;
+     left: 318px; }
+
+     .d-6{
+     position: absolute;
+     top: 400px;
+     left: 158px; }
+
+    
+
+     .d-6-1{
+     position: absolute;
+     top: 690px;
+     left: 189px; }
+
+     .d-6-2{
+     position: absolute;
+     top: 730px;
+     left: 215px; }
+
+     .d-7{
+    
+    position: absolute;
+     top: 106px;
+     left: 910px; }
+
+     .d-8{
+    
+    position: absolute;
+     top: 156px;
+     left: 910px; }
+    
+     .d-8-1{
+    
+    position: absolute;
+     top: 156px;
+     left: 990px; }
+
+     .d-8-2{
+    
+    position: absolute;
+     top: 156px;
+     left: 1100px; }
+     
+     
+     .d-9{
+    
+    position: absolute;
+     top: 206px;
+     left: 910px; }
+    
+     .d-9-1{
+    
+    position: absolute;
+     top: 206px;
+     left: 1010px; }
+
+     .d-10{
+    
+    position: absolute;
+     top: 256px;
+     left: 910px; }
+    
+     .d-10-1{
+    
+    position: absolute;
+     top: 256px;
+     left: 1100px; }
+
+     .d-10-2{
+    
+    position: absolute;
+     top: 256px;
+     left: 1170px; }
+ 
+
+     .d-11{
+    
+    position: absolute;
+     top: 360px;
+     left: 910px; }
+    
+     .d-11-1{
+    
+    position: absolute;
+     top: 400px;
+     left: 910px; }
+
+     .d-11-2{
+    
+    position: absolute;
+     top: 520px;
+     left: 1320px; }
+
+     .d-11-3{
+    
+    position: absolute;
+     top: 595px;
+     left: 1190px; }
+
+
+     .d-12{
+    
+    position: absolute;
+     top: 360px;
+     left: 1510px; }
+
+     
+
+     .d-12-1{
+    
+    position: absolute;
+     top: 360px;
+     left: 1580px; }
+  
+
+
+     .d-13{
+    
+    position: absolute;
+     top: 400px;
+     left: 1510px; }
+
+     
+
+     .d-13-1{
+    
+    position: absolute;
+     top: 400px;
+     left: 1580px; }
+  
+     .d-14{
+    
+    position: absolute;
+     top: 400px;
+     left: 1910px; }
+
+     .d-14-1{
+    
+    position: absolute;
+     top: 400px;
+     left: 2020px; }
+
+     .d-15{
+    
+    position: absolute;
+     top: 440px;
+     left: 1510px; }
+
+     .d-16{
+    
+    position: absolute;
+     top: 480px;
+     left: 1510px; }
+
+     .d-16-1{
+    
+    position: absolute;
+     top: 480px;
+     left: 1820px; }
+
+     .d-17{
+    
+    position: absolute;
+     top: 480px;
+     left: 3060px; }
+
+     .d-18{
+    
+    position: absolute;
+     top: 520px;
+     left: 3060px; }
+     
+
+     .d-18-1{
+    
+    position: absolute;
+     top: 520px;
+     left: 3090px; }
+
+     .d-19{
+    
+    position: absolute;
+     top: 560px;
+     left: 3060px; }
+
+     .d-19-1{
+    
+    position: absolute;
+     top: 560px;
+     left: 3110px; }
+
+     .d-19-2{
+    
+    position: absolute;
+     top: 560px;
+     left: 3195px; }
+
+     .d-20{
+    
+    position: absolute;
+     top: 600px;
+     left: 3060px; }
+
+     .d-21{
+    
+    position: absolute;
+     top: 640px;
+     left: 3060px; }
+
+     .d-21-1{
+    
+    position: absolute;
+     top: 680px;
+     left: 3060px; }
+
+     .d-22{
+    
+    position: absolute;
+     top: 280px;
+     left: 3030px; 
+     }
+
+
+     .d-23{
+    
+    position: absolute;
+     top: 40px;
+     left: 2580px; 
+     }
+   
+   
+</style>
+
+</head>    
+<body>
+
+
+    <p class="let" 
+    style="letter-spacing: 4px;">
+       Spring
+    </p>
+    
+    <p class="let-1" 
+    style="letter-spacing: 4px;">
+       Daily
+    </p>
+
+    <p class="let-2" 
+    style="letter-spacing: 4px;">
+       ___
+    </p>
+
+    <p class="let-3" 
+    style="letter-spacing: 4px;">
+       (03)
+    </p>
+
+    <p class="lett" 
+    style="letter-spacing: 4px;">
+       Spring
+    </p>
+    
+    <p class="lett-1" 
+    style="letter-spacing: 4px;">
+       Daily
+    </p>
+
+    <p class="lett-2" 
+    style="letter-spacing: 4px;">
+       ___
+    </p>
+
+    <p class="lett-3" 
+    style="letter-spacing: 4px;">
+       (03)
+    </p>
+
+
+    <p class="d"
+    style="letter-spacing: 8px;"> 
+     일종의 
+     </p>   
+
+
+    <p class="d-1"
+    style="letter-spacing: 8px;"> 
+     근황 라디오
+     </p>   
+
+     <p class="d-1-1"
+    style="letter-spacing: 8px;"> 
+     처럼 생각하면서 <b>듣고, 읽어봐</b>. 
+     </p>   
+
+     <p class="d-1-2"
+     style="letter-spacing: 8px;"> 
+     . .
+      </p>   
+
+      <p class="d-1-3"
+      style="letter-spacing: 8px;"> 
+      . . .
+       </p>   
+ 
+
+    <p class="d-2"
+    style="letter-spacing: 8px;"> 
+     어때?
+     </p>   
+
+     <p class="d-3"
+     style="letter-spacing: 8px;"> 
+      꽤나 
+      </p>   
+
+     <p class="d-3-1"
+     style="letter-spacing: 8px;"> 
+      설레지. 
+      </p>   
+
+      <p id="d4"
+      style="letter-spacing: 8px;">
+      일단 <b>BGM</b>  추천!</p>
+  
+      <audio id="audio-player"
+       src="./Go Home Club.mp3"></audio>
+    
+       <script>
+        var dFour = document.getElementById('d4');
+        var audioPlayer = document.getElementById('audio-player');
+        
+        dFour.addEventListener('click', function() {
+          audioPlayer.play();
+        });
+        </script>
+
+     <p class="d-5"
+     style="letter-spacing: 10px;"> 
+     <b>←</b> * 클릭해봐 ! *
+      </p>   
+
+
+      <p class="d-6"
+     style="letter-spacing: 4px;"> 
+     ♬°⋆ Hanshiro의 GO Home Club. ♬°⋆
+      </p>  
+
+      <img src="./go home club.png" alt="go-image"
+      class="go-image"
+      style="position:absolute;
+      top: 450px; left: 203px; width: 220px; 
+      height: 220px; ">
+
+      <p class="d-6-1"
+      style="letter-spacing: 7px;"> 
+      0:00 ——◦———— -2:37
+       </p>  
+
+       <p class="d-6-2"
+       style="letter-spacing: 20px;"> 
+       |◁      II      ▷|
+      </p>  
+
+      <p class="d-7"
+      style="letter-spacing: 8px;"> 
+       진짜 좋음!
+       </p>   
+    
+    <p class="d-8"
+       style="letter-spacing: 8px;"> 
+        하지만 
+        </p>  
+       
+    <p class="d-8-1"
+        style="letter-spacing: 8px;"> 
+         이 노래만 
+         </p>  
+        
+     <p class="d-8-2"
+         style="letter-spacing: 8px;"> 
+          들으면 
+          </p>  
+   
+    <p class="d-9"
+      style="letter-spacing: 8px;"> 
+           돌아갈 수 
+           </p>  
+    
+     <p class="d-9-1"
+           style="letter-spacing: 8px;"> 
+                없는
+                </p>          
+    
+    <p class="d-10"
+      style="letter-spacing: 8px;"> 
+      고등학생 때의 기억
+    </p>  
+    
+    <p class="d-10-1"
+    style="letter-spacing: 8px;"> 
+    때문에
+  </p>   
+        
+  <p class="d-10-2"
+  style="letter-spacing: 8px;"> 
+  힘들어져. 
+</p>   
+      
+<p class="d-11"
+style="letter-spacing: 8px;"> 
+그니까 이게 뭔소리냐면. 
+</p>   
+    
+<p class="d-11-1"
+style="letter-spacing: 8px;"> 
+(너라면 <b>이해했을 수도</b> 있겠지만.)
+</p>   
+
+<p class="d-11-2"
+style="letter-spacing: 8px;"> 
+→ 
+</p>   
+          
+
+<p class="d-11-3"
+style="letter-spacing: 8px;"> 
+* 따라와봐 ‧˚₊+ *
+</p>   
+          
+
+<p class="d-12"
+style="letter-spacing: 8px;"> 
+비슷한
+</p>   
+ 
+<p class="d-12-1"
+style="letter-spacing: 8px;"> 
+곳에 살고,
+</p>   
+
+<p class="d-13"
+style="letter-spacing: 8px;"> 
+비슷한
+</p>   
+ 
+<p class="d-13-1"
+style="letter-spacing: 8px;"> 
+환경에서 자란 아이들끼리 <b>더 이상</b>
+</p>   
+
+<p class="d-14"
+style="letter-spacing: 8px;"> 
+함께 할 수 
+</p>   
+
+<p class="d-14-1"
+style="letter-spacing: 8px;"> 
+없다는 것?  
+</p>   
+
+<p class="d-15"
+style="letter-spacing: 8px;"> 
+이라기보단 . . 
+</p>   
+
+<p class="d-16"
+style="letter-spacing: 8px;"> 
+<b>보고 싶을 때 </b>그렇게 쉽게 볼 수 
+</p>   
+
+<p class="d-16-1"
+style="letter-spacing: 8px;">  
+없다는
+</p>   
+
+<img src="./h.png" alt="h-image"
+class="h-image"
+style="position:absolute;
+top: 90px; left: 1503px; width: 520px; 
+height: 220px; ">
+
+
+<img src="./h-3.png" alt="h3-image"
+class="h3-image"
+style="position:absolute;
+top: 90px; left: 2022px; width: 520px; 
+height: 220px; ">
+
+<img src="./h-2.png" alt="h2-image"
+class="h2-image"
+style="position:absolute;
+top: 490px; left: 1930px; width: 540px; 
+height: 220px; ">
+
+<img src="./h-1.png" alt="h1-image"
+class="h1-image"
+style="position:absolute;
+top: 490px; left: 2470px; width: 540px; 
+height: 220px; ">
+
+
+<p class="d-17"
+style="letter-spacing: 8px;">  
+그런 감상 때문에 좀 <b>슬퍼지는</b> 듯해. 
+</p>   
+
+<p class="d-18"
+style="letter-spacing: 8px;">  
+넌
+</p>   
+<p class="d-18-1"
+style="letter-spacing: 8px;">  
+<b>어떤 생각</b>이 드니? 궁금하다. ㅋㅋ
+</p>   
+
+<p class="d-19"
+style="letter-spacing: 8px;">  
+근데
+</p>  
+
+<p class="d-19-1"
+style="letter-spacing: 8px;">  
+저 앨범
+</p>  
+
+<p class="d-19-2"
+style="letter-spacing: 8px;">  
+완전 *lofi지. .  자고 싶을 때 꼭 들어줘. 
+</p>  
+
+<p class="d-20"
+style="letter-spacing: 8px;">  
+그럼 안녕! 또 <b>편지</b>할게. 
+</p>  
+
+
+<p class="d-21"
+style="letter-spacing: 8px;">  
+그때까지 잘 지내. 
+
+</p>  
+
+<p class="d-21-1"
+style="letter-spacing: 8px;">  
++ + +
+
+</p>  
+
+<p class="d-23"
+style="letter-spacing: 8px;"> 
+(03)
+</p>
+
+<a href="./index.html" 
+ style="text-decoration: none;">
+  <img src="./(03)_대지 1.png" alt="이미지 3"
+  class="이미지3-image"
+  style=
+  "position: absolute;
+  top: 90px; left: 3250px; width: 330px; 
+  height: 220px;">
+
+<p class="d-22"
+style="letter-spacing: 10px;">  
+2022. 05. 24
+</p>  
+
+
+ 
+    
+
+    
+              
+
+
+
+    <div id="footer">
+        <small class="pr"
+        style="letter-spacing: 5px;">
+            The Revelation Of Endearing Letters Project
+            
+        </small>
+
+        <small class="pr-1"
+        style="letter-spacing: 10px;">
+           
+            : 다정한 편지들의 드러남
+        </small>
+
+        <small class="pr-2"
+        style="letter-spacing: 3px;">
+            [incomplete.ver]
+        </small>
+    </div>
+</body>
+<script src="./(03)-1.js"></script>
+<script src="./p5.min.js"></script>
+</html>
